@@ -1,0 +1,18 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    .btn--direction{
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 5em 0 0;
+        img{
+            padding: 1em;
+            scale: 1.5;
+            filter: opacity(0.5);
+        }
+        #rotate{
+            rotate: 180deg;
+            filter: none;
+        }
+    }
+}

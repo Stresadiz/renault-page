@@ -1,0 +1,8 @@
+.btn--green{
+    color: $color--fifth;
+}
+.btn--link{
+    &:hover{
+        text-decoration: none;
+    }
+}

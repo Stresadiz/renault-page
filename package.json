@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Stresadiz/renault-page#readme",
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "sass": "^1.57.1"
   }
 }

@@ -1,0 +1,10 @@
+.nav__list{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .btn--link{
+        list-style: none;
+        padding: 0em 1em 0em 1em;
+    }
+}

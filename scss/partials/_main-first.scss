@@ -1,0 +1,47 @@
+.main-first{
+    display: flex;
+    width: 100%;
+    padding: 0 0 3em 0;
+}
+.video{
+    background-color: $color--primary;
+    width: 360em;
+}
+.news__section{
+    width: 100%;
+    padding: 1.2em 0 0 0;
+    .news__title{
+        text-transform: uppercase;
+        font-size:medium;
+        padding: 2em 0 1em 1.5em;
+    }
+}
+.card{
+    background-color: $color--primary;
+}
+.card--news{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0em 0 1.5em;
+    border-bottom: 1px solid $third--color;
+    padding: 0.5em 0 1em 0;
+    .card__subtitle{
+        color: $third--color;
+        font-size: small;
+        text-transform: uppercase;
+    }
+    .card__title{
+        padding: 0.5em 0 0.5em 0;
+        .card__link{
+            color: $color--fourth;
+            font-size: 0.8rem;
+            line-height: 0.8rem;
+            
+        }
+    }
+    .card__date{
+        color: $third--color;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+    }
+}
