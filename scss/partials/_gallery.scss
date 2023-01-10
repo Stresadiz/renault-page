@@ -15,4 +15,15 @@
             filter: none;
         }
     }
+    .gallery__imgs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        overflow: visible;
+        width: fit-content;
+        padding: 0 0 0 7em;
+    }
 }
+
+@import '../partials/card'

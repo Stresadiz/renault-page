@@ -1,0 +1,86 @@
+.banner{
+    position: relative;
+        height: 25em;
+    .banner__img{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .banner--spirit{
+        position: absolute;
+        top: 8.2em;
+        left: 10em;
+        width: 35em;
+        p{
+            color:$color--primary;
+            font-weight: 600;
+            font-size: 2rem;
+            font-family: sans-serif;
+            -webkit-text-stroke: thin;
+            line-height: 1.2em;
+        }
+    }
+    .btn__banner{
+        .links{
+            text-transform: uppercase;
+            background-color: $color--seven;
+            padding: 0.8em 1em 0.8em 1em;
+            color: $color--primary;
+            border: 1px solid $color--seven;
+            font-size: 0.7em;
+            font-weight: 400;
+        }
+        &:hover{
+            .links{
+                color: $color--seven;
+                border: 1px solid $color--seven;
+                font-weight: 800;
+                background-color: transparent;
+                transition: 1s;
+            }
+        }
+    }
+}
+.banner--noimg{
+    margin: 8em 0 4em 0;
+    .banner--strategy{
+        display: flex;
+        .banner__body{
+            width: 60%;
+            padding-left: 8em;
+            .banner__title{
+                color: $color--fourth;
+                font-weight: 600;
+                font-size: larger;
+                width: 70%;
+                padding: 1em 0 2em 0;
+            }
+            .banner__text{
+                padding: 0 7em 0 0;
+                line-height: 1.6em;
+            }
+        }
+        .banner__aside{
+            width: 30%;
+            padding: 5em 3em 3em 3em ;
+            h4{
+                display: inline;
+                padding: 0.5em 1em 0.5em 1em;
+                text-align: center;
+                border: 1px solid $color--fourth;
+                text-transform: uppercase;
+                font-weight: 300;
+                &:hover{
+                    background-color: $color--fourth;
+                    transition: 0.5s;
+                    a{
+                        color: $color--primary;
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -7,7 +7,9 @@
     height: 5.1em;
     position: sticky;
     top: 0;
+    background-color: $color--primary;
     -webkit-box-shadow: 0px 2px 4px -1px $color--sixth;
     -moz-box-shadow: 0px 3px 2px -1px $color--sixth;
     box-shadow: 0px 1px 2px -1px $color--sixth;
+    z-index: 100000000000;
 }
