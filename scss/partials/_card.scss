@@ -47,8 +47,72 @@
         width: 33%;
         background-color: brown;
         height: 31em;
+        color: $color--primary;
+        overflow: hidden;
+        .card__display{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding: 17em 6em 0em 6em;
+            text-align: center;
+            top: 0em;
+        }
+        .card__no-display{
+            position: relative;
+            top: 26em;
+        }
+        &:hover > .card__no-display{
+            /*display: flex;
+            flex-direction: column;
+            padding: 10em 6em 0em 6em;
+            text-align: center;
+            transition: 1s;
+            */
+            top: -20em;
+            transition: 1s;
+            transition-delay: 0.2s;
+            background-color:$third--color ;
+            height: 100%;
+            font-size: small;
+            padding: 1em 2em 1em 2em;
+            h1{
+                text-align: center;
+                font-size: 1.8em;
+                padding: 0 2.2em 0 2.2em;
+            }
+            p{
+                line-height: 2;
+                text-align: center;
+                padding: 0 3em 0 3em;
+            }
+            h2{
+                text-align: center;
+                padding: 1.5em 0 2em 0em;
+            }
+        }
+        &:hover > .card__display{
+            top: -50em;
+            transition: 1s;
+        }
     }
 }
+.card--bg-img1{
+    background-size: 205% !important;
+    background-position: left;
+    background-position-y: -19em !important;
+    background: url('https://www.renaultgroup.com/wp-content/uploads/2021/04/rectangle-57.jpeg');
+}
+.card--bg-img2{
+    background-size: 200% !important;
+    background-position-y: -19em !important;
+    background: url('https://www.renaultgroup.com/wp-content/uploads/2021/04/rectangle-58.jpeg');
+}
+.card--bg-img3{
+    background-size: 205% !important;
+    background-position-y: -19em !important;
+    background: url('https://www.renaultgroup.com/wp-content/uploads/2021/04/rectangle-59.jpeg');
+}
+
 .card--bg-bv{
     background-color: blueviolet !important; 
 }
