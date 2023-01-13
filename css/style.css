@@ -285,7 +285,6 @@
 .cards--item .card:hover > .card__no-display h1 {
   text-align: center;
   font-size: 1.8em;
-  padding: 0 2.2em 0 2.2em;
 }
 .cards--item .card:hover > .card__no-display p {
   line-height: 2;
@@ -295,6 +294,12 @@
 .cards--item .card:hover > .card__no-display h2 {
   text-align: center;
   padding: 1.5em 0 2em 0em;
+}
+.cards--item .card:hover > .card__no-display .margin-2 {
+  padding-bottom: 0 !important;
+}
+.cards--item .card:hover > .top-18 {
+  top: -17.2em;
 }
 .cards--item .card:hover > .card__display {
   top: -50em;
@@ -409,6 +414,32 @@
 }
 .banner--noimg .banner--strategy .banner__aside h4:hover a {
   color: #fff;
+}
+
+.banner__default {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  text-align: center;
+  padding: 5em 0em 4em 0em;
+}
+.banner__default .banner--title {
+  padding: 0 0 1em 0;
+  font-size: xx-large;
+}
+.banner__default .banner__links {
+  padding: 4em 0 0 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner__default .banner__links h5 a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 0.8rem 0 0;
+}
+.banner__default .banner__links h5 a:hover {
+  text-decoration: underline 2px;
 }
 
 .links {

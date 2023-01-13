@@ -84,3 +84,30 @@
     }
     
 }
+.banner__default{
+    background-color:$color--fourth ;
+    color:$color--primary ;
+    text-align: center;
+    padding: 5em 0em 4em 0em;
+    .banner--title{
+        padding: 0 0 1em 0;
+        font-size: xx-large;
+    }
+    .banner__links{
+        padding: 4em 0 0 2em;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        h5{
+            a{
+                color: $color--primary;
+                text-decoration: none;
+                text-transform: uppercase;
+                margin:0 0.8rem 0 0 ;
+                &:hover{
+                    text-decoration: underline 2px;
+                }
+            }
+        }
+    }
+}
