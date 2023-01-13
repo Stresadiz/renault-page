@@ -1,6 +1,9 @@
 .btn--green{
     color: $color--fifth;
 }
+.btn--gray{
+    color: $color--secondary;
+}
 .btn--link{
     &:hover{
         text-decoration: none;

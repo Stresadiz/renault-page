@@ -5,3 +5,11 @@
     width: 15%;
     justify-content: center;
 }
+.logo--bgblack{
+    background-color: $color--fourth !important;
+    margin: 0;
+    justify-content: normal;
+    .logo__img{
+        filter: invert(1);
+    }
+}
