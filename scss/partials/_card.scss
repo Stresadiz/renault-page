@@ -78,7 +78,6 @@
             h1{
                 text-align: center;
                 font-size: 1.8em;
-                padding: 0 2.2em 0 2.2em;
             }
             p{
                 line-height: 2;
@@ -89,11 +88,18 @@
                 text-align: center;
                 padding: 1.5em 0 2em 0em;
             }
+            .margin-2{
+                padding-bottom: 0 !important;
+            }
+        }
+        &:hover > .top-18{
+            top: -17.2em;
         }
         &:hover > .card__display{
             top: -50em;
             transition: 1s;
         }
+        
     }
 }
 .card--bg-img1{

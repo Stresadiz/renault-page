@@ -84,3 +84,70 @@
     }
     
 }
+.banner__default{
+    background-color:$color--fourth ;
+    color:$color--primary ;
+    text-align: center;
+    padding: 5em 0em 4em 0em;
+    .banner--title{
+        padding: 0 0 1em 0;
+        font-size: xx-large;
+    }
+    .banner__links{
+        padding: 4em 0 0 2em;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        h5{
+            a{
+                color: $color--primary;
+                text-decoration: none;
+                text-transform: uppercase;
+                margin:0 0.8rem 0 0 ;
+                &:hover{
+                    text-decoration: underline 2px;
+                }
+            }
+        }
+    }
+}
+.banner--social{
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 0 2em 2em;
+    .banner__aside{
+        display: flex;
+        align-items: center;
+    }
+    .banner__body{
+        .banner__text{
+            padding: 0 7em 0 0;
+            line-height: 1.6em;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: $third--color;
+        }
+        .banner__title{
+                font-size: xx-large;
+                padding-right: 10%;
+                font-weight: 800;
+                font-size: 1.5em;
+            
+        }
+    }
+}
+.social-media{
+    img{
+        height: 3em;
+        width: 3em;
+        //border: 1px solid black;
+        padding: 1em;
+        filter: invert(1) drop-shadow(0px 0px 1px black) ;
+        //background-color: black;
+        &:hover{
+            transition: 0.5s;
+            filter: none;
+            //background-color: white;
+        }
+    }
+}

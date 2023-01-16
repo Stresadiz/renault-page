@@ -11,6 +11,15 @@
   justify-content: center;
 }
 
+.logo--bgblack {
+  background-color: rgb(0, 0, 0) !important;
+  margin: 0;
+  justify-content: normal;
+}
+.logo--bgblack .logo__img {
+  filter: invert(1);
+}
+
 .nav {
   width: 66%;
   display: flex;
@@ -43,7 +52,8 @@
   align-items: center;
   justify-content: space-between;
 }
-.nav__list .btn--link {
+
+.btn--link {
   list-style: none;
   padding: 0em 1em 0em 1em;
 }
@@ -77,6 +87,10 @@
 
 .btn--green {
   color: #00bf70;
+}
+
+.btn--gray {
+  color: #f1f1f2;
 }
 
 .btn--link:hover {
@@ -285,7 +299,6 @@
 .cards--item .card:hover > .card__no-display h1 {
   text-align: center;
   font-size: 1.8em;
-  padding: 0 2.2em 0 2.2em;
 }
 .cards--item .card:hover > .card__no-display p {
   line-height: 2;
@@ -295,6 +308,12 @@
 .cards--item .card:hover > .card__no-display h2 {
   text-align: center;
   padding: 1.5em 0 2em 0em;
+}
+.cards--item .card:hover > .card__no-display .margin-2 {
+  padding-bottom: 0 !important;
+}
+.cards--item .card:hover > .top-18 {
+  top: -17.2em;
 }
 .cards--item .card:hover > .card__display {
   top: -50em;
@@ -409,6 +428,145 @@
 }
 .banner--noimg .banner--strategy .banner__aside h4:hover a {
   color: #fff;
+}
+
+.banner__default {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  text-align: center;
+  padding: 5em 0em 4em 0em;
+}
+.banner__default .banner--title {
+  padding: 0 0 1em 0;
+  font-size: xx-large;
+}
+.banner__default .banner__links {
+  padding: 4em 0 0 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner__default .banner__links h5 a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 0.8rem 0 0;
+}
+.banner__default .banner__links h5 a:hover {
+  text-decoration: underline 2px;
+}
+
+.banner--social {
+  display: flex;
+  justify-content: space-around;
+  padding: 3em 0 2em 2em;
+}
+.banner--social .banner__aside {
+  display: flex;
+  align-items: center;
+}
+.banner--social .banner__body .banner__text {
+  padding: 0 7em 0 0;
+  line-height: 1.6em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #978b7f;
+}
+.banner--social .banner__body .banner__title {
+  font-size: xx-large;
+  padding-right: 10%;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.social-media img {
+  height: 3em;
+  width: 3em;
+  padding: 1em;
+  filter: invert(1) drop-shadow(0px 0px 1px black);
+}
+.social-media img:hover {
+  transition: 0.5s;
+  filter: none;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 3em 0 4em 0;
+  display: flex;
+  align-items: flex-start;
+}
+footer .footer__body {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2em 0em 0 2em;
+}
+footer .footer__body .logo {
+  padding-left: 5em;
+}
+footer .footer__body .footer__text {
+  padding: 2em 0 0 6.4em;
+  font-size: small;
+}
+footer .footer__body .footer__btn {
+  padding: 3em 0em 0 5em;
+}
+footer .footer__body .footer__btn .btn--link {
+  background-color: #fff;
+  padding: 0.8em 3em 0.8em 3em;
+}
+footer .footer__body .footer__btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  transition: 1s;
+}
+footer .footer__aside {
+  display: flex;
+  align-items: center;
+  width: 58%;
+  padding: 0px 0em 0 8em;
+  flex-wrap: wrap;
+}
+footer .footer__aside .footer__links {
+  padding: 2em 4em;
+}
+footer .footer__aside .footer__links .footer__list {
+  list-style: none;
+}
+footer .footer__aside .footer__links .footer__list .list__title {
+  font-size: normal;
+  line-height: 2.2em;
+}
+footer .footer__aside .footer__links .footer__list .list__links {
+  font-size: smaller;
+  color: #978b7f;
+  line-height: 1.2em;
+}
+footer .footer__aside .footer__links .footer__list .list__links:hover {
+  color: #fff;
+  font-size: small;
+}
+
+.footer-2 {
+  background-color: #978b7f;
+  display: flex;
+  justify-content: space-between;
+  height: 2em;
+  padding: 2em 10% 2em 10%;
+  font-size: smaller;
+  align-items: center;
+  color: #fff;
+}
+.footer-2 .footer-2__links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.footer-2 .footer-2__links a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .links {

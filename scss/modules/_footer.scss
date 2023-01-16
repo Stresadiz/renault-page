@@ -1,0 +1,80 @@
+footer{
+    background-color: $color--fourth;
+    color:$color--primary;
+    padding: 3em 0 4em 0;
+    display: flex;
+    align-items: flex-start;
+    .footer__body{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 2em 0em 0 2em;
+        .logo{
+            padding-left: 5em;
+        }
+        .footer__text{
+            padding: 2em 0 0 6.4em;
+            font-size: small;
+        }
+        .footer__btn{
+            padding: 3em 0em 0 5em;
+            .btn--link{
+                background-color: $color--primary;
+                padding: 0.8em 3em 0.8em 3em;
+            }
+            &:hover{
+                
+                background-color: $color--fourth;
+                color: $color--primary;
+                transition: 1s;
+            }
+        }
+    }
+    .footer__aside{
+        display: flex;
+        align-items: center;
+        width: 58%;
+        padding: 0px 0em 0 8em;
+        flex-wrap: wrap;
+        .footer__links{
+            padding: 2em 4em;
+            .footer__list{
+                list-style: none;
+                .list__title{
+                    font-size: normal;
+                    line-height: 2.2em;
+                }
+                .list__links{
+                    font-size: smaller;
+                    color: $third--color;
+                    line-height: 1.2em;
+                    &:hover{
+                        color: $color--primary;
+                        font-size: small;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.footer-2{
+    background-color:$color--seven ;
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    padding: 2em 10% 2em 10%;
+    font-size: smaller;
+    align-items: center;
+    color: $color--primary;
+    .footer-2__links{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        a{
+            color: $color--primary;
+            text-decoration: none;
+        }
+    }
+}
