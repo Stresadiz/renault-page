@@ -32,12 +32,12 @@ footer{
     }
     .footer__aside{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         width: 58%;
         padding: 0px 0em 0 8em;
         flex-wrap: wrap;
         .footer__links{
-            padding: 2em 4em;
+            padding: 2em 2em;
             .footer__list{
                 list-style: none;
                 .list__title{
@@ -46,7 +46,7 @@ footer{
                 }
                 .list__links{
                     font-size: smaller;
-                    color: $third--color;
+                    color: $color--eight;
                     line-height: 1.2em;
                     &:hover{
                         color: $color--primary;

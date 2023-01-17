@@ -524,13 +524,13 @@ footer .footer__body .footer__btn:hover {
 }
 footer .footer__aside {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 58%;
   padding: 0px 0em 0 8em;
   flex-wrap: wrap;
 }
 footer .footer__aside .footer__links {
-  padding: 2em 4em;
+  padding: 2em 2em;
 }
 footer .footer__aside .footer__links .footer__list {
   list-style: none;
@@ -541,7 +541,7 @@ footer .footer__aside .footer__links .footer__list .list__title {
 }
 footer .footer__aside .footer__links .footer__list .list__links {
   font-size: smaller;
-  color: #978b7f;
+  color: rgba(193, 193, 204, 0.6784313725);
   line-height: 1.2em;
 }
 footer .footer__aside .footer__links .footer__list .list__links:hover {
